@@ -1,0 +1,185 @@
+# WP AdPosts Plugin
+# Copyright (C) 2018 Ianhub™ <contact@ianhub.net>
+# This file is distributed under the same license as the PACKAGE package.
+# Kader Bouyakoub <bkader@mail.com>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP AdPosts - version 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/bkader\n"
+"POT-Creation-Date: 2018-02-27 11:29+0100\n"
+"PO-Revision-Date: 2018-03-06 17:05+0100\n"
+"Last-Translator: \n"
+"Language-Team: Ianhub™ <contact@ianhub.net>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Eazy Po 0.9.5.3\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_"
+"noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-Basepath: .\n"
+
+# This is the plugin's description.
+msgid ""
+"Allows you to create ads using codes or images and provides views and clicks "
+"counters, as well as locations management. You can even use the provided "
+"shortcode to insert ads into posts and pages."
+msgstr ""
+"Vous permet de créer des publicités à l'aide de codes ou d'images et fournit "
+"des compteurs de vues et de clics, ainsi que la gestion des emplacements. "
+"Vous pouvez même utiliser le shortcode fourni pour insérer des publicités "
+"dans vos articles et pages."
+
+#: wp-adpost.php:220
+#: wp-adpost.php:1112
+msgid "Ads"
+msgstr "Publicités"
+
+#: wp-adpost.php:221
+msgid "Ad"
+msgstr "Publicité"
+
+#: wp-adpost.php:224
+#: wp-adpost.php:225
+#: wp-adpost.php:226
+#: wp-adpost.php:256
+msgid "Add"
+msgstr "Ajouter"
+
+#: wp-adpost.php:227
+msgid "Edit"
+msgstr "Modifier"
+
+#: wp-adpost.php:228
+msgid "View"
+msgstr "Afficher"
+
+#: wp-adpost.php:229
+msgid "All Ads"
+msgstr "Toutes les publicités"
+
+#: wp-adpost.php:230
+msgid "Search Ads"
+msgstr "Recherche de pubs"
+
+#: wp-adpost.php:231
+msgid "No ads were found."
+msgstr "Aucune publicité trouvée."
+
+#: wp-adpost.php:232
+msgid "No ads were found in trash."
+msgstr "Aucune publicité trouvée dans la corbeille."
+
+#: wp-adpost.php:250
+#: wp-adpost.php:252
+msgid "Locations"
+msgstr "Emplacements"
+
+#: wp-adpost.php:251
+#: wp-adpost.php:328
+#: wp-adpost.php:797
+msgid "Location"
+msgstr "Emplacement"
+
+#: wp-adpost.php:253
+msgid "All ad locations"
+msgstr "Tous les emplacements"
+
+#: wp-adpost.php:254
+msgid "Edit ad location"
+msgstr "Modifier l'emplacement"
+
+#: wp-adpost.php:255
+msgid "Update"
+msgstr "Mettre à jour"
+
+#: wp-adpost.php:257
+msgid "Location Name"
+msgstr "Nom de l'emplacement"
+
+#: wp-adpost.php:258
+msgid "Search location"
+msgstr "Recherche d'emplacement"
+
+#: wp-adpost.php:259
+#: wp-adpost.php:357
+#: wp-adpost.php:523
+msgid "No location found."
+msgstr "Aucun emplacement trouvé."
+
+#: wp-adpost.php:420
+msgid "Settings"
+msgstr "Réglages"
+
+#: wp-adpost.php:422
+msgid "Donate"
+msgstr "Faire un Don"
+
+#: wp-adpost.php:445
+#: wp-adpost.php:493
+msgid "WP AdPosts Settings"
+msgstr "Réglages WP AdPosts"
+
+#: wp-adpost.php:508
+msgid ""
+"Ad banners are kind of standardized. There are several sizes from which you "
+"can choose. If none are selected, default ones will be used (300x250, 468x60 "
+"and 728x90). Note that each selected image size will be done to WordPress "
+"media manager."
+msgstr ""
+"Les bannières publicitaires ont des normes. Il y a plusieurs dimensions que "
+"vous pouvez choisir. Si aucune n'est sélectionnée, celles par défaut seront "
+"utilisées (300x250, 468x60 et 728x90). Il faut noter chaque dimension "
+"choisie sera ajoutée au gestionnaire de médias de WordPress."
+
+#: wp-adpost.php:512
+msgid "Ads Within Content"
+msgstr "Annonces dans le contenu"
+
+#: wp-adpost.php:514
+msgid "Do you want to display ads within your content paragraphs?"
+msgstr "Voulez-vous afficher des annonces parmi les paragraphes de votre contenu?"
+
+#: wp-adpost.php:515
+msgid "Select the location of which ads are displayed and after which paragraph."
+msgstr "Sélectionnez l'emplacement des annonces à afficher et après quel paragraphe."
+
+#: wp-adpost.php:798
+msgid "Views"
+msgstr "Affichages"
+
+#: wp-adpost.php:799
+msgid "Clicks"
+msgstr "Clics"
+
+#: wp-adpost.php:827
+#: wp-adpost.php:832
+#: wp-adpost.php:1011
+#: wp-adpost.php:1037
+#: wp-adpost.php:1154
+msgid "Undefined"
+msgstr "Indéfini"
+
+#: wp-adpost.php:897
+msgid "Ad Link"
+msgstr "Lien de la publicité"
+
+#: wp-adpost.php:503
+#: wp-adpost.php:1009
+#: wp-adpost.php:1034
+#: wp-adpost.php:1113
+msgid "Dimensions"
+msgstr "Dimensions"
+
+#: wp-adpost.php:1014
+#: wp-adpost.php:1040
+msgid ""
+"Dimensions on this dropdown list are the ones you have selected on the "
+"settings page. <a href=\"%s\">Click here</a> if you want to add more."
+msgstr ""
+"Les dimensions de cette liste déroulante sont celles que vous avez "
+"sélectionnées sur la page des paramètres. <a href=\"%s\">Cliquez ici</a> si "
+"vous souhaitez en ajouter d'autres."

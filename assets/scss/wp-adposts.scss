@@ -1,0 +1,159 @@
+/*!
+ * WP-AdPots Plugin (https://ianhub.net/products/wordpress/wp-adposts)
+ * Copyright 2018 Kader Bouyakoub (Ianhub - https://github.com/bkader)
+ * Licensed under GPLv3 or later (https://opensource.org/licenses/GPL-3.0)
+ */
+
+// Needed variables.
+$ad-background: #ddd;
+$ad-text-color: #414141;
+$ad-margin: 15px auto;
+
+// Basic ad class.
+.wp-adpost {
+	background-color: $ad-background;
+	color: $ad-text-color;
+	display: block;
+	height: auto;
+	margin: $ad-margin;
+	overflow: hidden;
+	text-align: center;
+	width: 100%;
+
+	// We make sure images take only the width.
+	img {
+		max-width: 100%;
+		height: auto;
+		outline: 0;
+	}
+}
+
+// Tiny ad of 88x31
+.wp-adpost-88x31 {
+	@extend .wp-adpost;
+	height: 31px;
+	line-height: 31px;
+	width: 88px;
+}
+
+// Ads of 120px width.
+.wp-adpost-120x60 {
+	@extend .wp-adpost;
+	height: 60px;
+	line-height: 60px;
+	width: 120px;
+}
+
+.wp-adpost-120x90 {
+	@extend .wp-adpost;
+	height: 90px;
+	line-height: 90px;
+	width: 120px;
+}
+
+.wp-adpost-120x240 {
+	@extend .wp-adpost;
+	height: 240px;
+	line-height: 240px;
+	width: 120px;
+}
+
+.wp-adpost-120x600 {
+	@extend .wp-adpost;
+	height: 600px;
+	line-height: 600px;
+	width: 120px;
+}
+
+// Ads of 125px width.
+.wp-adpost-125x125 {
+	@extend .wp-adpost;
+	height: 125px;
+	line-height: 125px;
+	width: 125px;
+}
+
+// Ads of 160px width.
+.wp-adpost-160x600 {
+	@extend .wp-adpost;
+	height: 600px;
+	line-height: 600px;
+	width: 160px;
+}
+
+// Ads of 180px width.
+.wp-adpost-180x150 {
+	@extend .wp-adpost;
+	height: 150px;
+	line-height: 150px;
+	width: 180px;
+}
+
+// Ads of 234px width.
+.wp-adpost-234x60 {
+	@extend .wp-adpost;
+	height: 60px;
+	line-height: 60px;
+	width: 234px;
+}
+
+// Ads of 250px width.
+.wp-adpost-250x250 {
+	@extend .wp-adpost;
+	height: 250px;
+	line-height: 250px;
+	width: 250px;
+}
+
+// Ads of 300px width.
+.wp-adpost-300x100 {
+	@extend .wp-adpost;
+	height: 100px;
+	line-height: 100px;
+	width: 300px;
+}
+
+.wp-adpost-300x250 {
+	@extend .wp-adpost;
+	height: 250px;
+	line-height: 250px;
+	width: 300px;
+}
+
+.wp-adpost-300x600 {
+	@extend .wp-adpost;
+	height: 600px;
+	line-height: 600px;
+	width: 300px;
+}
+
+// Ads of 336px width.
+.wp-adpost-336x280 {
+	@extend .wp-adpost;
+	height: 280px;
+	line-height: 280px;
+	width: 336px;
+}
+
+// Ads of 468px width.
+.wp-adpost-468x60 {
+	@extend .wp-adpost;
+	height: 60px;
+	line-height: 60px;
+	width: 468px;
+}
+
+// Ads of 728px width.
+.wp-adpost-728x90 {
+	@extend .wp-adpost;
+	height: 90px;
+	line-height: 90px;
+	width: 728px;
+}
+
+.wp-adpost-728x300 {
+	@extend .wp-adpost;
+	height: 300px;
+	line-height: 300px;
+	width: 728px;
+}

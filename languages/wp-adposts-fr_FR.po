@@ -1,0 +1,141 @@
+# WP AdPosts Plugin
+# Copyright (C) 2018 Ianhub™ <contact@ianhub.net>
+# This file is distributed under the same license as the PACKAGE package.
+# Kader Bouyakoub <bkader@mail.com>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP AdPosts - version 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/bkader\n"
+"POT-Creation-Date: 2018-02-27 11:29+0100\n"
+"PO-Revision-Date: 2018-03-05 13:21+0100\n"
+"Last-Translator: Kader Bouyakoub <bkader@mail.com>\n"
+"Language-Team: Ianhub <contact@ianhub.com>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Eazy Po 0.9.5.3\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_"
+"noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-Basepath: .\n"
+
+# This is the plugin's description.
+msgid ""
+"Allows you to create ads using codes or images and provides views and clicks counters, "
+"as well as locations management. You can even use the provided shortcode to insert ads "
+"into posts and pages."
+msgstr ""
+"Vous permet de créer des publicités à l'aide de codes ou d'images et fournit des compteurs "
+"de vues et de clics, ainsi que la gestion des emplacements. Vous pouvez même utiliser le "
+"shortcode fourni pour insérer des publicités dans vos articles et pages."
+
+#: wp-adpost.php:200
+#: wp-adpost.php:923
+msgid "Ads"
+msgstr "Publicités"
+
+#: wp-adpost.php:201
+msgid "Ad"
+msgstr "Publicité"
+
+#: wp-adpost.php:209
+msgid "All Ads"
+msgstr "Toutes les pubs"
+
+#: wp-adpost.php:210
+msgid "Search Ads"
+msgstr "Recherche de pubs"
+
+#: wp-adpost.php:211
+msgid "No ads were found."
+msgstr "Aucune Publicité trouvée."
+
+#: wp-adpost.php:212
+msgid "No ads were found in trash."
+msgstr "Aucune Publicité trouvée dans la corbeille."
+
+#: wp-adpost.php:230
+#: wp-adpost.php:232
+msgid "Locations"
+msgstr "Emplacements"
+
+#: wp-adpost.php:231
+#: wp-adpost.php:301
+#: wp-adpost.php:610
+msgid "Location"
+msgstr "Emplacement"
+
+#: wp-adpost.php:233
+msgid "All ad locations"
+msgstr "Tous les emplacements de pub"
+
+#: wp-adpost.php:234
+msgid "Edit ad location"
+msgstr "Modifier l'emplacement de pub"
+
+#: wp-adpost.php:237
+msgid "Location Name"
+msgstr "Nom de l'emplacement"
+
+#: wp-adpost.php:238
+msgid "Search location"
+msgstr "Recherche d'emplacements"
+
+#: wp-adpost.php:239
+#: wp-adpost.php:333
+msgid "No location found."
+msgstr "Aucun emplacement trouvé."
+
+#: wp-adpost.php:428
+#: wp-adpost.php:463
+msgid "WP AdPosts Settings"
+msgstr "Paramètres WP AdPosts"
+
+#: wp-adpost.php:464
+msgid ""
+"Ad banners are kind of standardized. There are several sizes from which you can choose. "
+"If none are selected, default ones will be used (300x250, 468x60 and 728x90). "
+"Note that each selected image size will be done to WordPress media manager."
+msgstr ""
+"Les bannières publicitaires ont des normes. Il y a plusieurs dimensions que vous pouvez choisir. "
+"Si aucune n'est sélectionnée, celles par défaut seront utilisées (300x250, 468x60 et 728x90). "
+"Il faut noter chaque dimension choisie sera ajoutée au gestionnaire de médias de WordPress."
+
+#: wp-adpost.php:618
+msgid "Views"
+msgstr "Affichages"
+
+#: wp-adpost.php:619
+msgid "Clicks"
+msgstr "Clics"
+
+#: wp-adpost.php:647
+#: wp-adpost.php:652
+#: wp-adpost.php:831
+#: wp-adpost.php:857
+#: wp-adpost.php:972
+msgid "Undefined"
+msgstr "Indéfini"
+
+#: wp-adpost.php:717
+msgid "Ad Link"
+msgstr "Lien de la publicité"
+
+#: wp-adpost.php:829
+#: wp-adpost.php:854
+#: wp-adpost.php:931
+msgid "Dimensions"
+msgstr "Dimensions"
+
+#: wp-adpost.php:834
+#: wp-adpost.php:860
+msgid ""
+"Dimensions on this dropdown list are the ones you have selected on the "
+"settings page. <a href=\"%s\">Click here</a> if you want to add more."
+msgstr ""
+"Les dimensions de cette liste déroulante sont celles que vous avez "
+"sélectionnées sur la page des paramètres. <a href=\"%s\">Cliquez ici</a> si "
+"vous souhaitez en ajouter d'autres."
